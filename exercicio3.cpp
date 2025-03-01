@@ -8,9 +8,9 @@ int main() {
         std::cin >> num;
 
         if (num <= 0) {
-            std::cout << "Por favor, digite um número positivo.\n";
+            std::cout << "Digite um número positivo\n";
         } else if (num % 2 == 0) {
-            std::cout << "O número precisa ser ímpar.\n";
+            std::cout << "O número precisa ser ímpar\n";
         }
     } while(num <= 0 || num % 2 == 0);
 
