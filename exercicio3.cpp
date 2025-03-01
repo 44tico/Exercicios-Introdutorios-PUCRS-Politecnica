@@ -1,9 +1,19 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Digite um número ímpar: ";
-    size_t num;
-    std::cin >> num;
+    int num;
+    do{
+        std::cout << "Digite um número ímpar: ";
+        int num;
+        std::cin >> num;
+
+        if (num <= 0) {
+            std::cout << "Por favor, digite um número positivo.\n";
+        } else if (num % 2 == 0) {
+            std::cout << "O número precisa ser ímpar.\n";
+        }
+    } while(num <= 0 || num % 2 == 0);
+
     std::cout << '\n';
 
     for(size_t i {1}; i <= num; ++i){
