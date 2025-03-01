@@ -9,6 +9,7 @@ add_executable(exercicio1 exercicio1.cpp)
 add_executable(exercicio2 exercicio2.cpp)
 add_executable(exercicio3 exercicio3.cpp)
 add_executable(exercicio4 exercicio4.cpp)
+add_executable(exercicio5 exercicio5.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS exercicio1 exercicio2
